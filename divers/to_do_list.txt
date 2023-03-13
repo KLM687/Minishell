@@ -1,0 +1,30 @@
+A FAIRE :
+---------
+
+- [X] Export : export test ; export (sans arg) doit afficher test
+- [X] Execution : No such file or directory a la place de Permission+ verfier ordre check
+- [X] ls > .
+- [X] < file
+- [X] echo " $''"
+- [X] minishell: ls: command not found : chmod 0 sur executable dans le dossier
+- [X] echo $"$''"
+- [X] exit a deux chiffres ne doit pas quitter
+- [X] cat << hi'' vs cat << hi -> expansion a faire dans le heredoc
+- [X] Exit status des commandes vides + redir (> file) 
+- [X] Commandes sans droits ./ls
+- [X] expansion dans heredoc
+- [X] cat << eof puis heredoc ➤ '$PWD'
+- [X] Makefile relink
+- [X] Verifier les $? signaux/erreurs 
+- [X] signaux dans heredoc / pipe
+- [X] | ls |
+- [X] export A=" a      b     c   "
+		echo $A | cat -e
+		echo '.'$A'.' | cat -e
+- [X] cat file | ls | sleep 10 ; ctrl-C -> SIGPIPE
+- [X] unset $PWD ; unset /lol/truc
+- [X] norme
+
+- [ ] Affichage des \n, control c control D des signaux sans utiliser de write
+- [ ] verifications, tests
+- [ ] push
